@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" style="-fx-background-color: black;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="645.0" fitWidth="825.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/border.gif" />
+         </image>
+      </ImageView>
+      <Text fill="#e8e8e8" layoutX="274.0" layoutY="79.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Información" underline="true" wrappingWidth="287.0732421875">
+         <font>
+            <Font name="MT Extra" size="53.0" />
+         </font>
+      </Text>
+      <Text fill="#e8e8e8" layoutX="270.0" layoutY="128.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Bienvenid@ a mi juego de Pong">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Text>
+      <Text fill="#e8e8e8" layoutX="49.0" layoutY="182.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- En Configuración, en los 3 puntos de arriba derecha, puedes cambiar varios atributos.">
+         <font>
+            <Font size="19.0" />
+         </font>
+      </Text>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#2e2e2e" height="110.0" layoutX="38.0" layoutY="206.0" stroke="BLACK" strokeType="INSIDE" width="418.0" />
+      <Text fill="WHITE" layoutX="174.0" layoutY="234.0" strokeType="OUTSIDE" strokeWidth="0.0" text="OBJETIVOS" wrappingWidth="137.83477783203125">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Text>
+      <Text fill="#e8e8e8" layoutX="60.0" layoutY="257.0" strokeType="OUTSIDE" strokeWidth="0.0" text="POR PUNTOS" textAlignment="CENTER" underline="true" wrappingWidth="116.620361328125">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="37.0" layoutY="276.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Llegar a la cantidad de puntos elegidos." textAlignment="CENTER" wrappingWidth="162.85272216796875">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+      <Text fill="#e8e8e8" layoutX="301.0" layoutY="256.0" strokeType="OUTSIDE" strokeWidth="0.0" text="POR TIEMPO" textAlignment="CENTER" underline="true" wrappingWidth="116.62036132812494">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="245.0" layoutY="276.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Tener más puntos antes de que se acabe el tiempo." textAlignment="CENTER" wrappingWidth="204.45269775390625">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#2e2e2e" height="110.0" layoutX="465.0" layoutY="206.0" stroke="BLACK" strokeType="INSIDE" width="324.0" />
+      <Text fill="WHITE" layoutX="553.0" layoutY="233.0" strokeType="OUTSIDE" strokeWidth="0.0" text="JUGADORES" wrappingWidth="162.85272216796875">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Text>
+      <Text fill="#e8e8e8" layoutX="487.0" layoutY="256.0" strokeType="OUTSIDE" strokeWidth="0.0" text="JUGADOR 1" textAlignment="CENTER" underline="true" wrappingWidth="95.0203857421875">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="454.0" layoutY="286.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Utiliza la W y la S" textAlignment="CENTER" wrappingWidth="162.85272216796875">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+      <Text fill="#e8e8e8" layoutX="676.0" layoutY="255.0" strokeType="OUTSIDE" strokeWidth="0.0" text="JUGADOR 2" textAlignment="CENTER" underline="true" wrappingWidth="95.0203857421875">
+         <font>
+            <Font name="System Bold" size="15.0" />
+         </font>
+      </Text>
+      <Text fill="WHITE" layoutX="642.0" layoutY="287.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Utiliza la I y la K" textAlignment="CENTER" wrappingWidth="162.85272216796875">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Text>
+      <Text fill="#e8e8e8" layoutX="51.0" layoutY="388.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- El botón Play hace posible el movimiento, mientras que el Pause lo para todo.">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fill="#e8e8e8" layoutX="48.0" layoutY="430.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- Para aplicar cambios, al salir de la ventana de Configuración, pulse Cargar.">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Text>
+      <Text fill="#e8e8e8" layoutX="390.0" layoutY="539.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Pásatelo bien!!">
+         <font>
+            <Font size="39.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="202.0" fitWidth="210.0" layoutX="636.0" layoutY="396.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@img/soldier.gif" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

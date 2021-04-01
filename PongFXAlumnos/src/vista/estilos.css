@@ -1,0 +1,104 @@
+.root {
+	
+	-fx-background-color: #000;	
+}
+
+/* APPBAR */
+
+.appbar {
+    -fx-pref-height: 56;
+    -fx-min-height: 56;
+    -fx-max-height: 56;
+    -fx-background-color: #001654;
+    -fx-padding: 0 16 0 16;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+
+.appbar .navigation_bar {
+    -fx-padding:  0 16 0 0;
+}
+
+.appbar .title {
+    -fx-text-fill: #48a3e8;
+    -fx-font-size: 28;
+}
+
+.appbar .icons-bar {
+    -fx-spacing: 50;
+}
+
+.appbar .image-view {
+    -fx-scale-x: 2;
+    -fx-scale-y: 2;
+}
+
+.appbar .image-view:hover {
+	-fx-text-fill: black;
+	-fx-effect: innershadow(three-pass-box, rgba(255,51,204,0.8), 127, 0, 0, 0);
+}
+
+/* NAVIGATION DRAWER MENU */
+
+.navigation-drawer {
+    -fx-background-color: #0093d1;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+
+.navigation-drawer .image-view {
+    -fx-pref-height: 60;
+    -fx-opacity: 0.74;
+    -fx-translate-x: 16;
+    -fx-translate-y: 12;
+}
+
+.navigation-drawer .label {
+    -fx-text-fill: #000;
+    -fx-font-size: 20;
+    -fx-opacity: 0.87;
+    -fx-pref-height: 48;
+    -fx-padding:  0 16 0 56;
+    -fx-font-weight: bold;
+}
+
+.navigation-drawer .item-selectable:hover {
+    -fx-background-color: #62cffc;
+    -fx-font-weight: bold;
+}
+
+.navigation-drawer .label:hover {
+    -fx-text-fill: #09b5a1;
+}
+
+/* TOOLBAR MENU */
+
+.menu-tools {
+    -fx-background-color: #0093d1;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.8), 10, 0, 0, 0);
+}
+
+.menu-tools .label {
+    -fx-text-fill: #000;
+    -fx-font-size: 20;
+    -fx-opacity: 0.87;
+    -fx-pref-height: 48;
+    -fx-padding: 0 16 0 16;
+}
+
+.menu-tools .item-selectable:hover {
+    -fx-background-color: #62cffc;
+}
+
+.menu-tools .label:hover {
+    -fx-text-fill: #09b5a1;
+}
+
+/* CONTROLS */
+.label {
+    -fx-font-size: 30;
+    -fx-padding: 0 8 0 0;
+}
+
+.text-field {
+    -fx-font-size: 13;
+    -fx-padding: 4 4 4 4;    
+}
